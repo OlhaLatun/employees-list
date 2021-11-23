@@ -1,0 +1,57 @@
+.employees-list {
+    background-color: slateblue;
+}
+
+.employees-list h1 {
+    font-size: 1.5rem;
+    color: rgb(195, 185, 255);
+}
+
+.letter-card .active {
+    color: rgb(20, 220, 203);
+}
+
+.active label {
+    color: #000;
+}
+
+.employees-list h1 span {
+    font-size: 2rem;
+    color: rgb(20, 220, 203);
+}
+
+.employees-list h2 {
+    font-size: 3rem;
+    padding-right: 10px;
+    color: rgb(20, 220, 203);
+}
+
+.letter-card, .letter-card li form {
+    font-weight: 400;
+    padding: 10px;
+    margin: 5px;
+}
+
+.letter-card {
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(195, 185, 255);
+    border-radius: 20px;
+}
+
+.letter-card ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.letter-card ul li, .letter-card p {
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.letter-card li form label {
+    color: thistle;
+    padding-left: 5px;
+}

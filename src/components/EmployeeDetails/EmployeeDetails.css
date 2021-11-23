@@ -1,0 +1,48 @@
+
+.employees-details h2 {
+    padding-bottom: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 1px 3px 3px #ccc;
+}
+
+.month-cards {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.month-card {
+    width: 20vw;
+    background-color: slateblue;
+    color: #fff;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.month-card h3 {
+    color: rgb(20, 220, 203);
+}
+
+.month-card p, .month-card li{
+    padding: 10px 0;
+}
+
+.empty {
+    position: relative;
+    margin: auto;
+    padding-top: 10vh;
+    font-size: 1.5rem;
+    color:rgb(56, 34, 255);
+}
+
+.empty img {
+    width: 10vw;
+    position: absolute;
+    margin-top: 30px;
+    left: 6vw;
+    top: 14vh;
+
+}

@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.app {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(232, 237, 253);
+}
+
+.app .employees-list, .employees-details {
+    flex: 1;
+    padding-top: 20px;
+}
+
+.employees-details h2 {
+    color: blueviolet;
+    font-size: 1.5rem;
+}
+
+
+

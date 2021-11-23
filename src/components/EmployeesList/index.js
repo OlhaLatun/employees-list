@@ -50,7 +50,7 @@ function LiItem({employee, getActiveEmployee}) {
     
     useEffect(() => {
         setIsActive(employee.isActive)
-    }, [isActive])
+    }, [isActive, employee.isActive])
 
     const handleChange = (e) => {
         getActiveEmployee({id: e.target.name, isActive})

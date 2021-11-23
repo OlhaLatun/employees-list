@@ -4,13 +4,14 @@ import emptyList from '../../assets/note.png'
 
 export default function EmlpoyeeDetails({employees}) {
 
-    const monthNames = ['January', 'February', 'March', 'April', 'May', 'June',
-    'July', 'August', 'September', 'October', 'November', 'December'
-    ];
 
     const [months, setMonths] = useState([])
 
     useEffect(() => {
+        const monthNames = ['January', 'February', 'March', 'April', 'May', 'June',
+        'July', 'August', 'September', 'October', 'November', 'December'
+        ];
+        
         let date = new Date()
         let end = monthNames.slice(0, date.getMonth() - 1)
         let start = monthNames.slice(date.getMonth())

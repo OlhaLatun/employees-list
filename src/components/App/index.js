@@ -39,7 +39,7 @@ function App() {
     if (localStorage.getItem('employees')) {
       let employeesFromLocalStorage = JSON.parse(localStorage.getItem('employees'))
       setEmployees(employeesFromLocalStorage)
-      setActiveEmployees(employeesFromLocalStorage .filter(employee => employee.isActive === true)) 
+      setActiveEmployees(employeesFromLocalStorage.filter(employee => employee.isActive === true)) 
     } else {
       api.getMappedEmployees()
         .then(data => {
